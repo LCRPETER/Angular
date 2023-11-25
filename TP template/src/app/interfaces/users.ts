@@ -1,5 +1,8 @@
 export interface Users {
-  fullname: string;
+  nom: string;
+  prenom: string;
   email: string;
   password: string;
+  profile?: string;
+  valide: string;
 }
