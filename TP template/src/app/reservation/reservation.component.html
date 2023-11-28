@@ -1,3 +1,20 @@
-<p>reservation works!</p>
-<h1>Page de reservation : </h1>
-<h2>Affiche la liste des réservation</h2>
+<!-- reservation.component.html -->
+<div style="background: rgb(246, 246, 246);">
+    <h2>Liste des réservations</h2>
+    <ul>
+        <li *ngFor="let reservation of table" style="margin: 10px 70px;">
+            <div style="background: rgb(0, 180, 0); padding: 10px; width: 900px; height: 112px;">
+
+                <h3>id = {{reservation.id }} Membre = {{reservation.name }}</h3>
+                <p>Party Size: {{ reservation.party }} Reservation Time: {{ reservation.time }} <img
+                        [src]="reservation.photo" alt="{{ reservation.name }}" style="height: 70px;"></p>
+            </div>
+            <!-- <div style="background: rgb(158, 255, 158); padding: 10px;">
+                <h3>id = {{reservation.id }} Membre = {{reservation.name }}</h3>
+                <p>Party Size: {{ reservation.party }}</p>
+                <p>Reservation Time: {{ reservation.time }} <img [src]="reservation.photo" alt="{{ reservation.name }}"
+                        style="height: 50px;"></p>
+            </div> -->
+        </li>
+    </ul>
+</div>

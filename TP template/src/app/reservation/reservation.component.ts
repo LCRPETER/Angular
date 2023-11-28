@@ -34,7 +34,7 @@ export class ReservationComponent {
       name: 'BEMBA PARFAIT DESTIN',
       party: 4,
       time: '06:00',
-      photo: 'assets/images/parfait.jpg',
+      photo: 'assets/images/Destin.jpg',
     },
     {
       id: '5',

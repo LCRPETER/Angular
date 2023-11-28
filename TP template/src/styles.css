@@ -1,6 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  list-style: none;
+}
+.bg-blue {
+  background: rgb(37, 101, 250);
+}
 section {
-  padding: 10px;
+  padding: 10px 70px;
+}
+section h1 {
+  text-align: center;
+  color: rgb(0, 0, 194);
+  font-size: 1.8rem;
+  margin: 10px 0 33px 0;
+}
+h3 {
+  color: rgb(0, 0, 194);
+  font-size: 1.2rem;
 }
 .navbar-nav {
   display: flex;
@@ -8,21 +23,17 @@ section {
   align-items: center;
   margin: 0 auto;
 }
-.collapse .nav-link {
-  color: #ffffff;
+.navbar-nav .nav-item > .nav-link,
+.fa-solid {
+  font-size: 1.2rem;
+  color: #f9f8f8;
 }
 .page1 {
   display: flex;
-  justify-content: space-between;
-}
-.page1 h1 {
-  text-align: center;
-  color: blue;
+  justify-content: space-around;
 }
 .page1 p,
 li {
   color: blue;
-}
-.reserve-right {
-  width: 20%;
+  font-size: 1rem;
 }
